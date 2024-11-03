@@ -5,16 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= Perfil %></title>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <%- include('partials/navigation') %>
-    <h1>Hola</h1>
-    <%=Contacto.Telefono %>
-    <h2>  primer proyecto en nodeJS</h2>
-    <h3>Holaaa a todos, bienvenidooeee</h3>
-    <img src="/img/perfil.JPG" >
-    <%- include('partials/footer') %>
    
+  <header>
+    <div>
+      <img src="./img/profile.png" />
+    </div>
+    <h1>EDWIN MANUEL ALVARADO RAMIREZ</h1>
+    <section>
+      <p>¡Hola! Soy Edwin Alvarado. estoy aprendien a desarrollar una interfaz en front-end. Me apasionan la programacion. Soy una persona centrada, dedicada, 
+        trabajadora y dispuesta a aprender en un entorno cambiante y desafiante.</p>
+      <a href="https://www.facebook.com" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://github.com/emar20" target="_blank">
+        <i class="fab fa-github-alt"></i>
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </section>
+  </header>
+  <main>
+    <section>
+      <h3>Cursos y talleres</h3>
+      <article class='course'>
+        <div class='title'>
+          <h4>LA CASA INFORMATICA: HTML, JS ,CSS</h4>
+        </div>
+        <div class="descrition">
+          <p>Gracias a los cursos de "LA CASA INFORMATICA" Cree sitios web bien estructurados y con estilo. Aprenda a utilizar el estándar HTML5 para crear sitios web. Comprenda la sintaxis, los selectores y las unidades CSS. 
+            Aprenda sobre los editores de código y las herramientas para desarrolladores de un navegador.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>DESARROLLO: El curso de desarrollo web </h4>
+        </div>
+        <div class="descrition">
+          <p>Aprenda a crear aplicaciones web  desde cero usando HTML, CSS, JavaScript, jQuery, NodeJS, MongoDB.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Experiencia: Programación web con JavaScript</h4>
+        </div>
+        <div class="descrition">
+          <p>Aprenda a crear aplicaciones web y prototipos con JavaScript, a representar e intercambiar datos mediante 
+            la notación de objetos JavaScript (JSON) en la web.</p>
+        </div>
+      </article>
+    </section>
+    <section>
+      <h3>Habilidades</h3>
+      <div class='Habilidades'>
+        <div class='column'>
+          <h4>Buen conocimiento</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class='column'>
+          <h4>Conocimientos básicos</h4>
+          <ul>
+            <li>jQuery</li>
+            <li>NodeJS</li>
+            <li>MongoDB</li>
+            <li>Django</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Idiomas</h4>
+          <p> Inglés - Nivel B II</p>
+          <p> Portugues - Nivel B I </p>
+          <p> Español - Nivel Avanzado </p>
 
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Educación</h3>
+      <article>
+        <div class='Universidad'>
+          <span>2021-2024</span> <strong>Universidad UCT</strong>
+        </div>
+        <div class="descrition">
+          Bechelor Degree of Octorobotics
+        </div>
+      </article>
+      <article>
+        <div class='Escuela'>
+          <span>2012-2016</span> <strong>Escuela Secundaria "Don Bosco" </strong>
+        </div>
+        <div>
+          Main subject: Cathemathics
+        </div>
+      </article>
+    </section>
+    <section>
+      <h3>Experiencia</h3>
+      <article>
+        <div class='job-title'>
+          <span>03.2024 - 06.2024</span> <strong>Empresa La Casa Informatica</strong><br> <strong>Puesto:</strong> Desarrollador web Junior
+        </div>
+        <div>
+          <p><strong>Tecnología:</strong> HTML5 / CSS / JavaScript </p>
+          <ul class="trabajo-description">
+            <li>Desarrollar aplicación web para la casa informatica</li>
+            <li>Implementar la interfaz de usuario (sitio front-end) en función del diseño gráfico y los requisitos recibidos</li>
+            <li>Cooperar con el equipo back-end </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>Created by: <a> "EMAR" LA CASA INFORMATICA</a> / 2024 </p>
+  </footer>
 </body>
+
 </html>
